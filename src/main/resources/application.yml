@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: mysql-data-jpa-project
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/annotation
+    username: root
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
